@@ -1,0 +1,207 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.bg-1 {
+    background-image: url(assets/img/3.jpg);
+}
+
+.bg-2 {
+    background-image: url(assets/img/2.jpg);
+}
+
+.boxed-btn,
+.welcom-area:after {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,1f9fc6+51,7db9e8+100 */
+    background: #1e5799;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #1e5799 0%, #2989d8 50%, #1f9fc6 51%, #7db9e8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1e5799 0%, #2989d8 50%, #1f9fc6 51%, #7db9e8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1e5799 0%, #2989d8 50%, #1f9fc6 51%, #7db9e8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
+    /* IE6-9 */
+}
+
+.welcom-area:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+}
+
+.welcom-area {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+.logo-area a {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.main-menu li a {
+    color: #fff;
+    display: block;
+}
+
+.header-right {
+    display: inline-block;
+}
+
+.header-right a {
+    color: #333;
+    padding-right: 0px 10px;
+}
+
+.social-links a {
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+}
+
+.header-right a i {
+    padding-right: 10px;
+}
+
+.single-slide-item {
+    background-color: #333;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: table;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.slide-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slide-max {
+    max-width: 400px;
+    padding: 30px;
+}
+
+.slide-max h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.slide-max h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.boxed-btn {
+    padding: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+}
+
+.owl-next {
+    position: absolute;
+    left: 26px;
+    bottom: -15px;
+}
+
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+button:focus {
+    outline: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

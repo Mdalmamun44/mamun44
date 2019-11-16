@@ -1,0 +1,205 @@
+@media(min-width:768px) and (max-width:991px) {
+    .header-top a {
+    font-size: 10px;
+    color: #ffffff;
+    padding: 0px 7px;
+}
+    header nav .navbar-nav .nav-item .nav-link::after {
+    position: absolute;
+    content: '';
+    bottom: 18px;
+    left: 30px;
+    width: 15px;
+    height: 2px;
+    background: #FF5539;
+    opacity: 0;
+    }
+    
+    
+    
+    
+    header nav .navbar-nav .nav-item .nav-link{
+        padding-left: 15px;
+    } 
+    
+    .owl-prev{
+        left: 3px;
+    }
+    
+    
+    .owl-next{
+        right: 3px;
+    }
+    .owl-prev i{
+        padding: 5px 10px;
+    }
+     .owl-next i{
+        padding: 5px 10px;
+    }
+    .slide-bg .btn.car-towning{
+        font-size: 12px;
+    }
+    .slide-bg h2{
+        font-size: 25px;
+    }
+    .slide-bg{
+        padding: 100px 0px;
+    }
+    .about-content h3{
+        font-size: 15px;
+    }
+    .img-overlay .btn.car-towning{
+        font-size: 8px;
+    }
+    .btn.car-towning{
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .service-content .btn.car-towning{
+        font-size: 10px;
+    }
+    .service-content h3{
+        font-size: 12px;
+    }
+    .wigde-icons a i{
+        font-size: 10px;
+        padding: 0px 5px;
+    }
+    .comment-btn{
+        font-size: 10px;
+        padding-left: 50px;
+        opacity: 0;
+    }
+    .btn.car-towning{
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    
+    
+    
+    h3{
+        font-size: 12px;
+    }
+    p{
+    font-size: 10px;
+    }
+    
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    
+     .header-top a {
+    font-size: 8px;
+    
+}
+    .header-top i {
+    margin-right: 5px;
+    }
+.navbar-light .navbar-nav .nav-link:hover:after {
+    color: #FF5539;
+    opacity: 0;
+    }
+    header nav .navbar-nav .nav-item .nav-link{
+       text-align: center;    } 
+    
+    .owl-prev{
+        left: 3px;
+    }
+    
+    
+    .owl-next{
+        right: 3px;
+    }
+    .owl-prev i{
+        padding: 5px 10px;
+    }
+     .owl-next i{
+        padding: 5px 10px;
+    }
+    .slide-bg .btn.car-towning{
+        font-size: 12px;
+    }
+    .slide-bg h2{
+        font-size: 20px;
+    }
+    .slide-bg{
+        padding: 70px 0px;
+    }
+    .about-content h3{
+        font-size: 12px;
+    }
+    .img-overlay .btn.car-towning{
+        font-size: 8px;
+        padding: 5px 5px;
+        margin-left: 12%;
+    }
+    .btn.car-towning{
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+    .service-content .btn.car-towning{
+        font-size: 10px;
+    }
+    .service-content h3{
+        font-size: 10px;
+    }
+    .wigde-icons a i {
+    font-size: 6px;
+    padding: 0px 3px;
+    }
+    .comment-btn{
+        font-size: 10px;
+        padding-left: 50px;
+        opacity: 0;
+    }
+    .btn.car-towning{
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .wigde-tags a {
+    font-size: 10px;
+    }
+    #cartowning-support h2 {
+    font-size: 24px;
+    }
+    #cartowning-support .btn.car-towning {
+    font-size: 10px;
+    }
+    
+    
+    .common-part span::after{
+        left: 40%;
+    }
+    .common-part h2 {
+    font-size: 24px;
+    }
+    .common-part span {
+    font-size: 10px;
+    }
+     h3{
+        font-size: 10px;
+    }
+    p{
+    font-size: 8px;
+    }
+    
+}
+@media(min-width:300px) and (max-width:576px) {
+    .header-top a{
+        text-align: center;
+        display: block;
+    }
+    .header-top .social-icon ul {
+    text-align: center;
+        float: left;
+}
+    .header-top .social-icon ul li{
+        display: inline-block;
+    }
+    .owl-prev{
+        bottom: -20%;
+    }
+    .owl-next{
+        bottom: -20%;
+    }
+}

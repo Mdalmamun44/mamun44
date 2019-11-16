@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <a style="background-image: url(assets/img/blue-sky.jpeg)" href="https://www.youtube.com/watch?v=JphmK1XCw5c" class="video-play mfp-iframe">
+                        <div class="video-overlay">
+                            <i class="fa fa-plus"></i>
+                            <p class="upper-text"> ipsum dolor.</p>
+                            <h3>open video</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/OwlCarousel2Thumbs.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+     <script>
+        $(document).ready(function() {
+            $('.video-play').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+
+                fixedContentPos: false
+            });
+        });
+
+    </script>
+</body>
+
+</html>

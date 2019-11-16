@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>trailor</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="amanullah aman">
+                          Tooltip on top
+                            </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="samin sakif">
+                          Tooltip on right
+                        </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="abu taher">
+                          Tooltip on bottom
+                        </button>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="asadullah al galib">
+                          Tooltip on left
+                        </button>
+                    <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Disabled tooltip">
+                          <button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>Disabled button</button>
+  
+                        </span>
+                        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on top
+</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/OwlCarousel2Thumbs.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+             $('[data-toggle="popover"]').popover();
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

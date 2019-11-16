@@ -1,0 +1,144 @@
+//**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.single-slide-item {
+    background-image: url(assets/img/1.jpg);
+}
+
+.boxed-btn {
+
+    font-size: 15px;
+    text-transform: capitalize;
+    border: 2px solid #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 40px;
+
+}
+
+.single-slide-item {
+    background-position: center;
+    background-size: cover;
+    background-color: #333;
+    height: 400px;
+    position: relative;
+}
+
+.slide-text {
+    background: #0074E8;
+    color: #fff;
+    padding-right: 160px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.slide-text h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.slide-text p {
+    margin-bottom: 20px;
+}
+
+.slide-text-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.slide-text:before {
+    position: absolute;
+    left: -1000%;
+    top: 0;
+    height: 100%;
+    width: 1000%;
+    background: #0074E8;
+    content: '';
+}
+.slide-text:after {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  height: 20px;
+  width: 20px;
+  background: #0074E8;
+  content: ;
+  content: '';
+  transform: rotate(45deg);
+  margin-right: -10px;
+}
+
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

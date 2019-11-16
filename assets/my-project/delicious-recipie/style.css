@@ -1,0 +1,1111 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/*header-top css*/
+
+header-top {
+    background: #000;
+    padding: 10px 0px;
+    display: block;
+}
+
+header-top a {
+    font-size: 12px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+header-top i {
+    margin-right: 10px;
+}
+
+.social-media-icon {
+    float: right;
+}
+
+.social-media-icon li {
+    float: left;
+}
+
+/*header-top css end*/
+
+/*main-header css*/
+
+header-main {
+    background: #F5F3F4;
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#cssmenu {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+}
+
+#cssmenu > ul {
+    float: right;
+}
+
+#cssmenu > ul > li {
+    float: left;
+}
+
+#cssmenu > ul > li > a {
+    padding: 20px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fd8a17;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+    color: #444444;
+}
+
+/*header-main css*/
+
+/*banner css */
+
+#banner {
+    background: url(assets/img/banner1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.banner-overlay {
+    background: rgb(0, 0, 0, .5);
+    padding: 200px 0px;
+}
+
+.banner-overlay h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.banner-overlay p {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 0px 140px;
+}
+
+.btn.btn-secondary.recipies {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: none;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    padding: 10px 15px;
+}
+
+/*banner css */
+
+/*max search css */
+
+#max-search-recipies .form-control {
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #fff;
+    margin: 10px 0px;
+    border: 1px solid #fff;
+    box-shadow: none;
+}
+
+#max-search-recipies i {
+    font-size: 30px;
+    color: #fff;
+    margin: 10px 40px;
+}
+
+.search_box {
+    background: #232323;
+    padding: 20px 20px;
+}
+
+.features {
+    background: #F1B333;
+    padding: 24px 0px;
+}
+
+.wrap {
+    position: absolute;
+    top: 744px;
+    left: 100px;
+}
+
+/*max search css end*/
+
+/*about css */
+
+#max-recipie-about {
+    padding: 100px 0px;
+}
+
+.max-recipe-common-part h2 {
+    font-size: 30px;
+    color: #F1B333;
+    text-transform: capitalize;
+}
+
+.col-lg-5.max-recipe-common-part p {
+    font-size: 14px;
+    color: #BABABA;
+    margin-top: 10px;
+}
+
+.max-recipe-common-part:after {
+    position: absolute;
+    content: '';
+    bottom: -15px;
+    left: 15px;
+    height: 3px;
+    width: 50px;
+    background: #F1B333;
+}
+
+.para {
+    font-size: 14px;
+    color: #BABABA;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/*about css end*/
+
+/*today recipie css */
+
+#max-recipie-today {
+    padding: 100px 0px;
+    background: #281D1D;
+}
+
+.recipie-pic {
+    height: 350px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.recipie-pic img {
+    height: 100%;
+    width: 100%;
+}
+
+.recipie-post {
+    background: #1D1D1D;
+    padding: 20px;
+    width: 368px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+.recipie-post span {
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+}
+
+.recipie-post i {
+    font-size: 14px;
+    color: #F1B333;
+    margin-top: 10px;
+}
+
+.post-ttl {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.post-content {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.recipie-post a {
+    float: right;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.recipie-post strong {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.slide-item {
+    margin-top: 40px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.owl-dot span {
+    width: 14px;
+    height: 15px;
+    background: #fff;
+    z-index: 99999;
+    display: inline-block;
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+
+.owl-dots {
+    text-align: center;
+    top: 30px;
+    position: relative;
+}
+
+.owl-dot.active span {
+    background: #FF5539;
+
+}
+
+/*popular recipie css */
+
+#max-popular-recipies {
+    padding: 100px 0px;
+}
+
+.post-img {
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(38, 38, 38, .6);
+    text-align: center;
+    opacity: 0;
+}
+
+.img-overlay i {
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 25%;
+}
+
+.img-overlay i:hover {
+    background: #F1B333;
+    color: #000;
+    transition: all linear 0.4s;
+}
+
+.post-img:hover .img-overlay {
+    opacity: 1;
+    transition: all linear 0.5s;
+    left: 0;
+}
+
+.post-cntnt h3 {
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 20px
+}
+
+.post-cntnt ul li {
+    float: left;
+    padding: 10px 20px;
+    color: #808080;
+}
+
+.post-cntnt i {
+    color: #F1B333;
+}
+
+.post-cntnt {
+    background: #FFFFFF;
+    border: 1px solid aliceblue;
+    padding-bottom: 50px;
+}
+
+.mix-buttons {
+    margin-top: 40px;
+}
+
+.control.btn {
+    font-size: 16px;
+    text-transform: capitalize;
+    box-shadow: none;
+}
+
+.control.btn:hover {
+    background: #e8d08e;
+    transition: all linear 0.4s;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.mixitup-control-active {
+    background: #F1B333;
+    color: #fff;
+}
+
+/*popular recipie css */
+
+/*browse recipie css */
+
+.browse-field {
+    margin-top: 40px;
+    background: #fff;
+    padding: 20px 0px;
+}
+
+#max-browse-recipies {
+    padding: 100px 0px;
+    background: #00161E;
+}
+
+.form-control {
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #fff;
+    margin: 10px 0px;
+    border: none;
+    border: 1px solid #d1d1d1;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #d1d1d1;
+}
+
+.max-select {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #5c5b5b;
+}
+
+.btn.btn-secondary.popular-recipies {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #F1B333;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    padding: 10px 15px;
+    float: right;
+}
+
+/*browse recipie css  end */
+
+/*top rated recipie css */
+
+#max-top-rated-recipes {
+    padding: 100px 0px;
+}
+
+.top-rated-item {
+    border: 1px solid aliceblue;
+    padding: 20px;
+}
+
+strong {
+    font-size: 14px;
+    color: #716e6e;
+    text-transform: uppercase;
+}
+
+.rating {
+    float: right;
+    color: #FFAB00;
+
+}
+
+.review-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.riview-post {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.top-rated-item a {
+    font-size: 14px;
+    color: #FFAB00;
+    float: right;
+    text-transform: capitalize;
+}
+
+.top-rated-item i {
+    font-size: 14px;
+    color: #FFAB00;
+}
+
+/*top rated recipie css */
+
+/*testimonial css */
+
+.pic {
+    width: 100px;
+    height: 100px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.testimonials-title {
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.post {
+    font-size: 15px;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+}
+
+#max {
+    padding: 100px 0px;
+    background: #002634;
+}
+
+.testimonial-item {
+    background: #fff;
+    padding: 40px 0px;
+    margin-top: 40px;
+}
+
+/*testimonial css  end*/
+
+/*blog css */
+
+.blog-item {
+    margin-top: 40px;
+}
+
+.blog-img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-img:hover .img-overlay {
+    opacity: 1;
+    left: 0;
+    transition: all linear 0.4s;
+}
+
+#max-recipes\ blog {
+    padding: 100px 0px;
+    background: #F8F8F8;
+}
+
+.blog-title {
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.blog-post ul li {
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.blog-post ul li a {
+    color: #000;
+}
+
+.blog-post {
+    background: #fff;
+    border-top: 2px solid #FFAB00;
+    padding-bottom: 54px;
+}
+
+.btn.btn-secondary.join-us {
+    font-size: 14px;
+    color: #fff;
+    background: #FFAB00;
+    margin-top: 40px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.contact-info-text {
+    margin-top: 40px;
+}
+
+/*blog css end*/
+
+/*footer-top css */
+
+.widget-title h3 {
+    font-size: 16px;
+    color: #B88A2D;
+    text-transform: uppercase;
+}
+
+.widget-title h3:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -10px;
+    width: 50px;
+    height: 3px;
+    background: #FFAB00;
+}
+
+.widget-title {
+    position: relative;
+}
+
+.widget-text {
+    margin-top: 30px;
+}
+
+#max-recipes-footer-top {
+    padding: 100px 0px;
+    background: #f0dede;
+}
+
+.social-mda-icn ul li i {
+    font-size: 14px;
+    color: #000;
+    float: left;
+    margin-left: 5px;
+    border: 1px solid #393737;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+.social-mda-icn ul li i:hover {
+    background: #fff;
+}
+
+.contact-info ul li a {
+    font-size: 14px;
+    color: #000;
+    line-height: 30px;
+}
+
+.contact-info {
+    margin-top: 28px;
+}
+
+.categories {
+    margin-top: 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.categories ul {
+    column-count: 2;
+}
+
+.widget-img {
+    float: left;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.ppplr-item {
+    float: left;
+    margin-top: 30px;
+}
+
+.ppplr-item i {}
+
+.ppplr-item span {
+    font-size: 14px;
+
+}
+
+#max\ recipe\ foooter {
+    background: #000;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+/*footer-top css end*/
+
+/*home2 about css */
+
+#max-recipie-about.home2 .max-recipe-common-part::after {
+    left: 240px;
+}
+
+/*home2 about css end */
+
+/*home2 recipe of the week css */
+
+#max-recipe-of-the-week {
+    padding: 100px 0px;
+}
+
+/*home2 recipe of the week css end*/
+
+/*hom2 browse css */
+
+#max-browse-recipies .form-control {
+    margin-top: 40px;
+    background: none;
+}
+
+.brows-feature ul li {
+    float: left;
+    padding: 0px 70px;
+}
+
+.brows-feature {
+    margin-top: 40px;
+}
+
+.brows-feature h3 {
+    font-size: 20px;
+    color: #FFAB00;
+    text-transform: capitalize;
+}
+
+.brows-feature i {
+    font-size: 30px;
+    color: #808080;
+    margin-top: 20px;
+}
+
+/*hom2 browse css end*/
+
+/* home2 chef css */
+
+#max-chefs {
+    padding: 100px 0px;
+}
+
+.chef-img {
+    position: relative;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.chef-img .chef-img-overlay {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(10, 88, 116, .6);
+    opacity: 0;
+}
+
+.chef-img:hover .chef-img-overlay {
+    border: 2px solid #F1B333;
+    opacity: 1;
+    transition: all linear 0.4s;
+    top: 0;
+}
+
+.chef-img-overlay ul li a i {
+    float: left;
+    font-size: 14px;
+    margin: 10px 5px;
+    color: #000;
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.chef-img-overlay ul {
+    margin: 6px 80px;
+}
+
+.chef-img-overlay ul li a i:hover {
+    color: #fff;
+}
+
+.our-chefs h3 {
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.our-chefs span {
+    font-size: 14px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+/* home2 chef css */
+
+/*max-recipe breadcrumb css  */
+
+#recipe-breadcrumb {
+    background: #382925
+}
+
+#recipe-breadcrumb h3 {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#recipe-breadcrumb .breadcrumb {
+    background: 0;
+    float: right;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#recipe-breadcrumb .breadcrumb a {
+    color: #fff;
+}
+
+.breadcrumb-item.active {
+    color: #fff;
+}
+
+/*max-recipe breadcrumb css  end*/
+
+/*recipe submit  css */
+
+#max-submit-recipe p {
+    margin-top: 40px;
+}
+
+#max-submit-recipe {
+    padding: 100px 0px;
+}
+
+.form-control.height {
+    height: 100px;
+}
+
+lebel {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.widget-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.widget-content span {
+    font-size: 14px;
+    color: #888888;
+    display: block;
+    margin-top: 10px;
+}
+
+.widget-content a {
+    font-size: 16px;
+    color: #F1B333;
+    text-transform: capitalize;
+    margin-top: 10px;
+    display: block;
+}
+
+.widget-content ul li {
+    font-size: 16px;
+    color: #888888;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.widget-content .post-image {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+}
+
+.widget-content strong {
+    font-size: 14px;
+    color: #F2B949;
+}
+
+.widget-content ul li a {
+    color: #888888;
+    border: 1px solid #888888;
+    float: left;
+    margin-right: 17px;
+    padding: 5px 10px;
+}
+
+/*recipe submit css end */
+
+/*blog css */
+
+#max-recipie-blog p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#max-recipie-blog {
+    padding: 100px 0px;
+}
+
+#max-recipie-blog .post-cntnt h3 {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#max-recipie-blog .read-more {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #F9A531;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/*blog css end*/
+
+/*blog single css */
+
+.blockquote {
+    margin-top: 20px;
+}
+
+.social-mda-icn h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.recent-comment img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.recent-comment h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.recent-comment span {
+    font-size: 15px;
+    text-transform: capitalize;
+    display: block;
+    margin-top: 10px;
+}
+
+.recent-comment {
+    margin-top: 40px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.cmnt-part {
+    margin-top: 40px;
+}
+
+.recent-comment h6 {
+    font-size: 14px;
+}
+.contact {
+
+    margin-bottom: 20px;
+
+}
+
+/*blog  single css end*/
+/*contact css*/
+#max-recipie-contact h3 {
+  font-size: 20px;
+  color: #222222;
+  text-transform: capitalize;
+}
+#max-recipie-contact {
+  padding: 100px 0px;
+}
+.info {
+  margin-top: 40px;
+}
+.info li i {
+  font-size: 14px;
+  color: #F7A631;
+}
+.info li i a {
+  color: #000;
+  margin-left: 20px;
+}
+.info li {
+
+    margin-top: 40px;
+    border: 1px solid #2222;
+    padding: 6px 10px;
+
+}
+/*contact css end*/
+/*404 css */
+#max-404-page {
+  padding: 100px 0px;
+}
+.hero-area {
+  border: 1px solid #2323;
+  padding: 40px 0px;
+}
+.hero-area h2 {
+  font-size: 50px;
+  color: #FEAF08;
+}
+.hero-area span {
+  font-size: 30px;
+  color: #2323;
+}
+.hero-area p {
+  font-size: 14px;
+  color: #272727;
+  margin-top: 10px;
+}
+.hero-area .btn {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  background: #FEAF08;
+  border: 0;
+}
+/*404 css end*/
+
+/*common css*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+/*common css*/

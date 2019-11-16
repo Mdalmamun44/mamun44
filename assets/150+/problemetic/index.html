@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container">
+           <div class="row">
+                <div class="col-lg-12 text-center">
+                    <ul class="project_filter">
+                        <li class="active" data-filter="*">all</li>
+                        <li data-filter=".web">web design</li>
+                        <li data-filter=".graphics">graphics design</li>
+                        <li data-filter=".videos">videos</li>
+                        <li data-filter=".seo">seo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio_list">
+                        <div class="single-portfolio-item portfolio-bg-1 large-img graphics">
+                            <div class="hover-content">
+                                <h2>Lorem ipsum dolor sit.</h2>
+                                video/photography
+                            </div>
+                        </div>
+                        <div class="single-portfolio-item portfolio-bg-2 graphics">
+                            <div class="hover-content">
+                                <h2>Lorem ipsum dolor sit.</h2>
+                                video/photography
+                            </div>
+                        </div>
+                        <div class="single-portfolio-item portfolio-bg-3 large-img videos">
+                            <div class="hover-content">
+                                <h2>Lorem ipsum dolor sit.</h2>
+                                video/photography
+                            </div>
+                        </div>
+                        <div class="single-portfolio-item portfolio-bg-4 web">
+                            <div class="hover-content">
+                                <h2>Lorem ipsum dolor sit.</h2>
+                                video/photography
+                            </div>
+                        </div>
+                        <div class="single-portfolio-item portfolio-bg-5 large-img web">
+                            <div class="hover-content">
+                                <h2>Lorem ipsum dolor sit.</h2>
+                                video/photography
+                            </div>
+                        </div>
+                        <div class="single-portfolio-item portfolio-bg-6 seo">
+                            <div class="hover-content">
+                                <h2>Lorem ipsum dolor sit.</h2>
+                                video/photography
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/masonary-4.2.2.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/OwlCarousel2Thumbs.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        // isotop filter js start
+        var $portfolio_list = $('.portfolio_list').isotope({
+            // options
+        });
+        // filter items on button click
+        $('.project_filter').on('click', 'li', function() {
+            $("li").removeClass("active");
+            $(this).addClass("active");
+            var filterValue = $(this).attr('data-filter');
+
+
+            $portfolio_list.isotope({
+                filter: filterValue,
+            });
+        });
+
+    </script>
+</body>
+
+</html>

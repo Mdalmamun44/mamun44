@@ -1,0 +1,158 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+
+.section-padding {
+    padding: 100px 0px;
+}
+
+.section-title h2 {
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-title span {
+    color: #11500e;
+}
+
+.single-pricing-box {
+    margin-top: 40px;
+    border: 1px solid #7f7f7f;
+    padding: 10px 10px;
+}
+
+.single-pricing-box h2,
+h3 {
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.pricing-icon {
+    margin-top: 20px;
+}
+
+.pricing-icon .fa {
+    font-size: 60px;
+    color: #858837;
+}
+
+.pricing-icon img {
+    max-width: 60px;
+}
+
+.pricing-list {
+    margin: 20px 0px;
+}
+
+.pricing-list ul li:before {
+    font-family: fontAwsome;
+    content: "\f007";
+}
+
+.pricing-count {
+    text-transform: none;
+}
+
+.order-btn {
+
+    display: inline-block;
+    color: #7f7f7f;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #11500e;
+    padding: 10px 15px;
+    border-radius: 10%;
+    margin-top: 20px;
+
+}
+
+.order-btn:hover {
+
+    background: #11500e;
+    color: #fff;
+    transition: all linear 0.4s;
+
+}
+
+.single-pricing-box:hover {
+    border: 1px solid #000;
+    box-shadow: 0 0 3px;
+    transition: all linear 0.2s;
+}
+.single-pricing-box:hover .pricing-icon .fa{
+    color: #11500e;
+}
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

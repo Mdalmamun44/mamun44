@@ -1,0 +1,157 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.bg-1 {
+    background-image: url(assets/img/3.jpg);
+}
+
+.bg-2 {
+    background-image: url(assets/img/3.jpg);
+}
+
+.styled-br-inner {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+
+.bg-1 {}
+
+.styled-bg {
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 70px;
+}
+
+.styled-bg:after {
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    content: '';
+    background: #ddd;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.styled-bg:before {
+    position: absolute;
+    right: 50px;
+    bottom: -50px;
+    height: 100px;
+    width: 2px;
+    content: '';
+    background: #333;
+}
+
+.section-title-speacial {
+    background: #fff;
+    margin-left: -130px;
+    z-index: 1;
+    position: relative;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 40px;
+    color: #333;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #7f7f7f;
+}
+
+.right-side .styled-bg::after {
+    left: auto;
+    right: -15px;
+}
+
+.right-side .styled-bg::before {
+    right: auto;
+    left: 50px;
+}
+
+.right-side .section-title-speacial {
+    margin-right: -173px;
+    margin-left: auto;
+}
+
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

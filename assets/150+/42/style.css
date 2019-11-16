@@ -1,0 +1,187 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+.section-padding {
+    padding: 80px 0;
+}
+
+.project-bg-1 {
+    background-image: url(assets/img/3.jpg);
+}
+
+.project_filter li {
+    font-weight: 700;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0px 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.project_filter li.active {
+    color: #FA2231;
+}
+
+.project_filter li:hover {
+    color: #FA2231;
+}
+
+.single-project-item {
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    position: relative;
+    z-index: 1;
+    height: 300px;
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.project-hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.project-hover:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    content: '';
+    z-index: -1;
+    transform: scale(.7);
+    transition: all linear 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.project-hover h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.single-project-item:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    border-right: 1px solid #333;
+    content: '';
+    border-top: 1px solid #333;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+}
+
+.single-project-item:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border-left: 1px solid #333;
+    content: '';
+    border-bottom: 1px solid #333;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+}
+
+.single-project-item:hover .project-hover:after {
+    transform: scale(1);
+    opacity: .5;
+    visibility: visible;
+}
+
+.single-project-item:hover.single-project-item:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-project-item:hover.single-project-item:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/**
+
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

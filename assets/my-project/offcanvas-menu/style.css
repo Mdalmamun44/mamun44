@@ -1,0 +1,316 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.bg-1 {
+    background: url(assets/img/p1.jpg);
+}
+
+.bg-2 {
+    background: url(assets/img/p2.jpg);
+}
+
+.bg-3 {
+    background: url(assets/img/p3.jpg);
+}
+
+.bg-4 {
+    background: url(assets/img/p5.jpg);
+}
+
+.bg-5 {
+    background: url(assets/img/p6.jpg);
+}
+
+.bg-6 {
+    background: url(assets/img/c1.jpg);
+}
+
+.bg-7 {
+    background: url(assets/img/p1.jpg);
+}
+
+.bg-8 {
+    background: url(assets/img/p2.jpg);
+}
+
+.bg-9 {
+    background: url(assets/img/c1.jpg);
+}
+
+.bg-10 {
+    background: url(assets/img/p6.jpg);
+}
+
+.bg-11 {
+    background: url(assets/img/p5.jpg);
+}
+
+.logo a {
+    color: #333;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.logo span {
+    font-size: 60%;
+}
+
+.menu-trigger span {
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: #333;
+    margin: 5px;
+    transition: .4s;
+}
+
+.menu-trigger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu-trigger:hover span:nth-child(1),
+.menu-trigger:hover span:nth-child(3) {
+    margin-left: 10px;
+}
+
+.portfolio-single-item {
+    width: 25%;
+    float: left;
+    height: 200px;
+    background-color: #ddd;
+    background-position: center;
+    background-size: 180%;
+    background-repeat: no-repeat;
+    display: table;
+    transition: .5s;
+}
+
+.portfolio-hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.portfolio-hover h2 a {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.portfolio-hover p a {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.portfolio-single-item:hover .portfolio-hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.portfolio-single-item:hover {
+    background-size: 120%;
+}
+
+.portfolio-single-item.long {
+    height: 400px;
+}
+
+.portfolio-single-item.boxed {
+    height: 400px;
+    width: 50%;
+}
+
+.portfolio-list {
+    overflow: hidden;
+}
+
+.footer-area {
+    background: #0074E8;
+    color: #fff;
+    padding: 40px 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer-area a {
+    color: #fff;
+}
+
+.footer-area p {
+    opacity: .6;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.footer-area h3 {
+    font-size: 18px;
+}
+
+.footer-area ul li {
+    text-transform: capitalize;
+    opacity: .6;
+}
+
+.portfolio-list {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 159px;
+}
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.offcanvas-menu {
+    position: fixed;
+    top: 0;
+    right: -40%;
+    height: 100%;
+    width: 40%;
+    background: #fff;
+    z-index: 7;
+    padding: 30px;
+    transition: .4s;
+}
+
+.offcanvas-menu.active {
+    right: 0;
+}
+
+.menu-bottom-section {
+    position: absolute;
+    left: 30px;
+    bottom: 80px;
+    max-width: 300px;
+}
+
+.menu-boxed-text {
+    background: #ddd;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.offcanvas-menu li a {
+    color: #333;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.social-icon a {
+    display: inline-block;
+    color: #7f7f7f;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.social-icon {
+    margin-top: 15px;
+}
+
+.menu-wrap {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 50px;
+}
+
+.menu-close {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    height: 100%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+* Global */ body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

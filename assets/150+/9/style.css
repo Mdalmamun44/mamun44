@@ -1,0 +1,160 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.section-padding {
+    padding: 100px 0px;
+    background: #545457;
+}
+
+.section-title h2 {
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.owl-dot span {
+    width: 40px;
+    height: 4px;
+    background: #fff;
+    z-index: 99999;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.owl-dots {
+    text-align: center;
+    top: 30px;
+    position: relative;
+}
+
+.owl-dot.active span {
+    background: #FF5539;
+
+}
+
+button:focus {
+    outline: none;
+}
+
+.section-border span {
+    width: 26px;
+    height: 5px;
+    background: #fff;
+    display: inline-block;
+}
+
+.section-border .black-border {
+    background: #000;
+}
+
+.single-testimonial-item {
+    margin-top: 40px;
+    background: #fff;
+    padding: 10px 20px;
+    position: relative;
+}
+
+single-testimonial-item:hover {
+
+    box-shadow: 0 0 10px #7f7f;
+    transition: all linear 0.4s;
+
+}
+
+.single-testimonial-item h3 {
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.single-testimonial-item span {
+    font-size: 11px;
+    color: #7f7f7f;
+    display: block;
+    margin-top: 10px;
+}
+
+.single-testimonial-item span {
+    font-size: 11px;
+    color: #7f7f7f;
+}
+.single-testimonial-item .fa {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    line-height: 30px;
+    margin-top: -15px;
+}
+
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

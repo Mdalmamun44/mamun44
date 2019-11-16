@@ -1,0 +1,134 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.section-padding {
+    padding: 100px;
+}
+.contact-wrap-bg{background-image: url(assets/img/1.jpg);}
+.contact-wrap {
+  position: relative;
+  z-index: 1;
+  padding: 100px;
+  color: #fff;
+}
+.contact-wrap-bg {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 72%;
+  top: 0;
+  content: '';
+  background-size: cover;
+  background-position: center;
+}
+.contact-wrap-bg:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  content: '';
+  opacity: .6;
+}
+.contact-form {
+  background: #fff;
+  margin-left: 100px;
+  padding: 30px;
+  color: #333;
+  box-shadow: 0 0 10px #ddd;
+}
+.contact-form input,textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+.contact-form textarea {
+  max-height: 100px;
+  resize: none;
+}
+.contact-form input[type="submit"] {
+  background: #1e5520;
+  color: #fff;
+  text-transform: capitalize;
+}
+h2 {
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

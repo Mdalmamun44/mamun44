@@ -1,0 +1,242 @@
+@media(min-width:768px) and (max-width:991px) {
+    .header-top a {
+        font-size: 10px;
+        color: #ffffff;
+        padding: 0px 7px;
+    }
+    header nav .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+
+
+    .slide-bg h2 {
+        font-size: 20px;
+    }
+    .owl-prev {
+        left: 0px;
+    }
+
+
+    .owl-next {
+        right: 0px;
+    }
+    .owl-prev i {
+        padding: 5px 10px;
+    }
+    .owl-next i {
+        padding: 5px 10px;
+    }
+    .btn.mover {
+        font-size: 10px;
+    }
+    .btn.get-start {
+        font-size: 10px;
+    }
+    .slide-bg {
+        padding: 100px 0px;
+    }
+    .common-part h2 {
+        font-size: 25px;
+    }
+    #mover-about h3 {
+        font-size: 15px;
+    }
+    #mover-offer h2 {
+        font-size: 25px;
+    }
+    #mover-service h3 {
+        font-size: 12px;
+    }
+    #mover-blog .owl-prev {
+        left: -36px;
+    }
+    #mover-blog .owl-next {
+        right: -36px;
+    }
+    #mover-testimonial .owl-prev {
+        left: -30px;
+    }
+    #mover-testimonial .owl-next {
+        right: -30px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .service-content a {
+        font-size: 9px;
+    }
+    #mover-work-gallery .control {
+        font-size: 13px;
+    }
+    .widge-social-icons i {
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    #mover-team .owl-prev {
+        left: -35px;
+    }
+    #mover-team .owl-next {
+        right: -35px;
+    }
+    #mover-breadcamb h2 {
+        font-size: 25px;
+    }
+    .btn-error {
+        font-size: 12px;
+    }
+    .overlay i {
+        margin-top: 30%;
+    }
+     .ovrly ul li a {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        margin: 4px 1px;
+    }
+    .blog-catagories h3 {
+    font-size: 15px;
+    margin-top: 40px;
+    }
+    .blog-catagories strong{
+        font-size: 12px;
+    }
+    #moverblog strong {
+
+    font-size: 11px;
+    }
+#mover-contact-info .common-part h2 {
+    font-size: 20px;
+    }
+}
+
+
+@media(min-width:576px) and (max-width:767px) {
+    .header-top a {
+        font-size: 8px;
+        color: #ffffff;
+        padding: 0px 7px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+    header nav .navbar-nav .nav-item .nav-link {
+        font-size: 10px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    header nav .navbar-nav .nav-item .nav-link:hover {
+        background: none;
+    }
+
+    .slide-bg h2 {
+        font-size: 18px;
+    }
+    .owl-prev {
+        left: 0px;
+    }
+
+
+    .owl-next {
+        right: 0px;
+    }
+    .owl-prev i {
+        padding: 5px 10px;
+    }
+    .owl-next i {
+        padding: 5px 10px;
+    }
+    .btn.mover {
+        font-size: 10px;
+    }
+    .btn.get-start {
+        font-size: 10px;
+    }
+    .slide-bg {
+        padding: 80px 0px;
+    }
+    .common-part h2 {
+        font-size: 18px;
+    }
+    #mover-about h3 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 9px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    #mover-offer h2 {
+        font-size: 18px;
+    }
+    #mover-service h3 {
+        font-size: 8px;
+    }
+    #mover-blog .blog-cmnt a {
+        font-size: 10px;
+    }
+    .btn-link {
+        font-size: 10px;
+    }
+    #mover-work-gallery .control {
+        font-size: 10px;
+    }
+    .overlay i {
+        margin-top: 30%;
+    }
+    .count-text {
+        font-size: 10px;
+    }
+    .testimonial-content h5 {
+        font-size: 15px;
+    }
+    .widge-contact {
+        padding: 20px 40px;
+    }
+    .service-content a {
+        font-size: 6px;
+    }
+    .widge-social-icons i {
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    #mover-breadcamb h2 {
+        font-size: 18px;
+    }
+    .btn-error {
+        font-size: 10px;
+    }
+    .ovrly ul li a {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        margin: 4px 1px;
+    }
+    .blog-catagories h3 {
+    font-size: 13px;
+    margin-top: 40px;
+    }
+    .blog-catagories strong{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    #moverblog strong {
+
+    font-size: 10px;
+    }
+    #mover-blog .blog-tag a{
+        padding: 6px 14px;
+        font-size: 10px;
+    }
+    #mover-contact-info .common-part h2 {
+    font-size: 18px;
+    }
+}

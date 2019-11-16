@@ -1,0 +1,113 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Galib;
+ * @Author Link: https://galibweb.com;
+ */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500|Playfair+Display:400,400i|Raleway');
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+    font-weight: 400;
+}
+
+
+
+
+.categoroy-bg-1{background-image: url(assets/img/01.jpg);}
+.categoroy-bg-2{background-image: url(assets/img/02.jpg);}
+.categoroy-bg-3{background-image: url(assets/img/03.jpg);}
+.categoroy-bg-4{background-image: url(assets/img/04.jpg);}
+.categoroy-bg-5{background-image: url(assets/img/05.jpg);}
+.categoroy-bg-6{background-image: url(assets/img/06.jpg);}
+.categoroy-bg-7{background-image: url(assets/img/07.jpg);}
+.categoroy-bg-8{background-image: url(assets/img/08.jpg);}
+
+
+.section-title {
+  margin-bottom: 40px;
+}
+.section-title span {
+  font-size: 20px;
+  color: #FF5151;
+  font-style: italic;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+.section-title h2 {
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+}
+.single-category-item {
+  height: 300px;
+  background-color: #ddd;
+  background-position: center;
+  background-size: 110%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  transition: .3s;
+}
+.category-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  padding: 20px 30px;
+    background: rgba(0, 0, 0,.7);
+}
+.category-content a {
+  color: #fff;
+  display: inline-block;
+   font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transition: .3s;
+}
+.category-content a:hover {
+  color: #FF5151;
+}
+.single-category-item:hover {
+  background-size: 130%;
+}
+
+/**
+ * Global
+ */
+

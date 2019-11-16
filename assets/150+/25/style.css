@@ -1,0 +1,217 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+.single-slide-item {
+    background-image: url(assets/img/1.jpg);
+}
+
+.logo-area img {
+    max-width: 70px;
+}
+
+.right-content-box {
+    font-size: 14px;
+    display: inline-block;
+    color: #333;
+    position: relative;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+
+.right-content-box a {
+    color: #333;
+}
+
+.right-content-box .fa {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 20px;
+}
+
+.header-top-area {
+    padding: 30px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.single-slide-item {
+    padding: 200px 0;
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+.slide-text {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+}
+
+.slide-text:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #ddd;
+    opacity: .5;
+    z-index: -7;
+}
+
+.slide-text h2 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.slide-text p {
+    margin-bottom: 20px;
+}
+
+.boxed-btn {
+    color: #333;
+    border: 1px solid #fff;
+    background: #fff;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.owl-prev {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50px;
+     line-height: 40px;
+    margin-top: -20px;
+}
+
+.owl-next {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 50px;
+    line-height: 40px;
+    margin-top: -20px;
+}
+
+.owl-next i {
+    font-size: 20px;
+    padding: 10px 10px;
+    background: #ffff;
+    ;
+}
+
+.owl-prev i {
+    font-size: 20px;
+    padding: 10px 10px;
+    background: #ffff;
+}
+
+.owl-next i:hover {
+    background: #FF5539;
+   
+}
+
+.owl-prev i:hover {
+    background: #FF5539;
+}
+.owl-dot span {
+    width: 14px;
+    height: 15px;
+    background: #fff;
+    z-index: 99999;
+    display: inline-block;
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+
+.owl-dots {
+    text-align: center;
+    top: -50px;
+    position: relative;
+}
+
+.owl-dot.active span {
+    background: #FF5539;
+
+}
+
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+button:focus{
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

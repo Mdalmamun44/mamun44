@@ -1,0 +1,113 @@
+@media(min-width:992px) and (max-width:1199px) {
+    
+    #carouselExampleIndicators .images {
+	top: 10%;
+	left: 8%;
+}
+    .icon_btm {
+	top: 170px;
+}
+    .contact_btn ul li {
+	padding: 2px 4px;
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+   img {
+	margin: -12px 0;
+}
+    .carousel-item {
+	height: 514px;
+}
+    #carouselExampleIndicators .images {
+	top: 10%;
+	left: -2%;
+}
+    .gallery_overly {
+	left: 8px;
+}
+    
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    
+   .carousel-item {
+	height: 480px;
+} 
+
+.text h3 {
+	font-size: 20px;
+}
+.text h1 {
+	font-size: 40px;
+}
+#carouselExampleIndicators .images {
+	top: 11%;
+	left: -3%;
+}
+#carouselExampleIndicators .images {
+	width: 418px;
+	height: 170px;
+}
+
+.gallery_overly {
+	top: 10px;
+	left: 6px;
+}
+    .membership_text .text {
+	font-size: 12px;
+}
+    
+ .membership_overlay h2 {
+	padding-top: 11px;
+	font-size: 14px;
+} 
+.membership_overlay span {
+	font-size: 20px;
+}
+    .membership_one ul li {
+	font-size: 14px;
+}
+.timer {
+	font-size: 30px;
+}
+.counter_one p{
+	font-size: 14px;
+}
+
+.lll ul li {
+	width: 50%;
+}
+    
+}
+
+@media(max-width:575px) {
+    .carousel-item {
+        height: 400px;
+    }
+ 
+    #examplaTab ul li{
+        margin: 10px 0;
+    }
+    
+    
+    
+    .counter_one p{
+        font-size: 13px;
+    }
+    
+    .timer {
+	font-size: 20px;
+}
+    
+    .footer_btm p{
+        font-size: 14px;
+    }
+    
+    .footer_btm span {
+	color: #e23e38;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+    
+}

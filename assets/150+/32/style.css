@@ -1,0 +1,175 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-bg {
+  background: #0F0F0F;
+}
+.trailor-text {
+  color: #fff;
+    margin-top: 40px;
+}
+.trailor-text h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 40px;
+    opacity: .8;
+}
+.trailor-text p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  opacity: 0.4;
+  line-height: 1.9;
+}
+
+.btn-box {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5%;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 1px solid #FF481C;
+    transition: all linear 0.4s;
+}
+.btn-box:hover {
+    background: #FF481C;
+    color: #fff;
+}
+
+.trailor-info {
+  position: relative;
+  z-index: 1;
+}
+.pricing-box {
+  position: absolute;
+  right: 235px;
+  background: #CE0606;
+  color: #fff;
+  padding: 40px;
+  text-transform: uppercase;
+  z-index: -1;
+}
+.pricing-box p {
+  opacity: .5;
+}
+.pricing-box .price-text {
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 1;
+}
+.cart {
+
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    font-size: 20px;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+
+}
+.owl-dot:nth-child(1) span::before {
+    content: "01";
+}
+.owl-dot:nth-child(2) span::before {
+    content: "02";
+}
+.owl-dot:nth-child(3) span::before {
+    content: "03";
+}
+.owl-dot span {
+  border-left: 2px solid #fff;
+  padding-left: 10px;
+}
+.owl-dot {
+  display: block;
+}
+.owl-dot.active span {
+     border-left: 2px solid #FE272B;
+    padding-left: 10px;
+}
+.owl-dots {
+    position: absolute;
+    right: -30px;
+    top: 20%;
+}
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

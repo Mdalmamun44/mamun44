@@ -1,0 +1,211 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.service-bg {
+    background-image: url(assets/img/1.jpg);
+}
+
+.bg-1 {
+    background-image: url(assets/img/2.jpg);
+}
+
+.bg-2 {
+    background-image: url(assets/img/3.jpg);
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.service-bg {
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 220px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.service-bg i {
+    height: 50px;
+    width: 50px;
+    background: #273853;
+    line-height: 50px;
+    text-align: center;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -25px;
+    transition: all linear 0.4s;
+}
+
+.single-service-box h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 40px;
+    transition: all linear 0.4s;
+}
+
+.single-service-box {
+    border: 2px solid rgba(193, 188, 188, .3);
+    border-radius: 5px 5px 0px 0px;
+    display: block;
+}
+
+.single-service-box:hover .service-bg i {
+    background: #119F58;
+    border: 4px solid green;
+}
+
+.single-service-box h2:hover {
+    background: #273853;
+    color: #fff;
+}
+
+/*first level dropdown menu*/
+
+.main-menu ul {
+    background: #273853;
+}
+
+.main-menu li {
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.main-menu li a {
+    color: #fff;
+    display: block;
+    padding: 15px;
+    font-weight: 700;
+    transition: all linear 0.4s;
+}
+
+.main-menu li ul {
+    position: absolute;
+    left: -20px;
+    top: 40px;
+    width: 150px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+}
+
+.main-menu li ul li {
+    display: block;
+}
+
+.main-menu li ul li a {
+    padding-top: 10px;
+}
+
+.main-menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+.main-menu li:hover > a {
+    background: green;
+}
+.main-menu li:hover ul ul{
+    opacity: 0;
+    visibility: hidden;
+        
+}
+.main-menu ul ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    left: 150px;
+    top: 0;
+}
+
+/*second level dropdown menu*/
+
+/
+/**
+
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

@@ -1,0 +1,404 @@
+@media(min-width:768px) and (max-width:991px) {
+    header nav .navbar-nav .nav-item .nav-link{
+        padding: 0px 15px;
+    } 
+    .slide-bg{
+        padding: 100px 0px;
+    }
+    #banner h2{
+        font-size: 25px;
+    }
+    .btn.offer{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    #shop a{
+        margin: 0px 15px;
+        font-size: 13px;
+    }
+    
+    
+    .pplr-item h3{
+        font-size: 12px;
+    }
+    #shop .pplr-item .view{
+        font-size: 12px;
+    }
+    .item-text p{
+        font-size: 12px;
+    }
+    .item-text span{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    #shoping-offer h2{
+        font-size: 18px;
+    }
+    #shoping-offer{
+        padding: 70px 0px;
+    }
+    .widge-title h3{
+        font-size: 16px;
+    }
+    .widge-link ul li a{
+        font-size: 9px;
+    }
+    .widge-link ul{
+        line-height: 25px;
+    }
+    #footer-top span{
+        font-size: 12px;
+    }
+    .widge-content{
+        font-size: 10px;
+    }
+    #footer-top{
+        padding: 70px 0px;
+    }
+    /*query for product part*/
+    .ttle{
+        font-size: 10px;
+    }
+    .product-price span{
+        font-size: 12px;
+    }
+    .btn-link{
+        font-size: 12px;
+    }
+    .product p{
+        font-size: 8px;
+    }
+    .product span{
+        font-size: 8px;
+    }
+    .card-body p{
+        font-size: 8px;
+    }
+    .pplr-item h4{
+        font-size: 12px;
+    }
+    /*query for product part*/
+    /*query for checkout part*/
+    .delicio-returning-customer h3{
+        font-size: 12px;
+    }
+    .delicio-new-customer h3{
+        font-size: 12px;
+    }
+    .checkbox-submit-btn{
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    .checkout-title h3{
+        font-size: 13px;
+    }
+    .form-control{
+        font-size: 12px;
+    }
+    .personal-info h3{
+    font-size: 12px;
+    }
+    .customer-address h3{
+        font-size: 12px;
+    }
+    .delicio-selling-product h3{
+        font-size: 10px;
+    }
+    .price strong{
+        font-size: 10px;
+    }
+    .price span{
+        font-size: 10px;
+    }
+    /*query for checkout part*/
+    /*query for single part*/
+    .delicio-single-item2 img{
+        width: 30%;
+    }
+    .product-info h3{
+        font-size: 12px;
+    }
+    .product-info span{
+        font-size: 12px;
+    }
+    .product-info p{
+        font-size: 8px;
+    }
+    .product-info .btn-cart{
+        font-size: 10px;
+        padding: 8px 8px;
+    }
+    .product-info input {
+    width: 70px;
+    height: 30px;
+    }
+    .product-info i{
+        font-size: 10px;
+    }
+    #single-product-info .nav-link{
+        font-size: 12px;
+    }
+    .tab-content > .active{
+        font-size: 12px;
+    }
+    #featured h3{
+        font-size: 12px;
+    }
+    /*query for single part*/
+    /*query for about part*/
+    #delicio-about h3{
+        font-size: 12px;
+    }
+    #delicio-about .features p{
+        font-size: 10px;
+    }
+    /*query for about part*/
+    /*query for contact part*/
+    .contact-info h3{
+        font-size: 12px;
+    }
+    .contact-info strong{
+        font-size: 12px;
+    }
+    .contact-info{
+        font-size: 12px;
+    }
+    /*query for contact part*/
+    /*query for cart part*/
+    .cart-thead{
+        font-size: 10px;
+    }
+    .cart-data h3{
+        margin-top: 10px;
+    }
+    .cart-data span{
+        margin-top: 10px;
+    }
+    .cart-data .form-control{
+        margin-top: 10px;
+    }
+    .cart-data i{
+        margin-top: 10px;
+    }
+    .cart-price-bg{
+        padding: 75px 5px;
+    }
+     /*query for cart part*/
+}
+@media(min-width:576px) and (max-width:767px) {
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+    header nav .navbar-nav .nav-item .nav-link{
+        padding: 0px 15px;
+        text-align: center;
+      
+    } 
+    header nav .navbar-nav .nav-item .nav-link:hover{
+          background: 0;
+        color: #7F574C;
+    }
+    .slide-bg{
+        padding: 100px 0px;
+    }
+    #delicio-breadcrumb h3{
+        font-size: 12px;
+    }
+    #delicio-breadcrumb .breadcrumb{
+        font-size: 12px;
+    }
+    #banner h2{
+        font-size: 20px;
+    }
+    .btn.offer{
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    #shop a{
+        margin: 0px 14px;
+        font-size: 11px;
+    }
+    
+    
+    .pplr-item h3{
+        font-size: 12px;
+    }
+    #shop .pplr-item .view{
+        font-size: 12px;
+    }
+    .item-text p{
+        font-size: 12px;
+    }
+    .item-text span{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    #shoping-offer h2{
+        font-size: 18px;
+    }
+    #shoping-offer{
+        padding: 70px 0px;
+    }
+    .widge-title h3{
+        font-size: 13px;
+    }
+    .widge-link ul li a{
+        font-size: 8px;
+    }
+    .widge-link ul{
+        line-height: 25px;
+    }
+    #footer-top span{
+        font-size: 12px;
+    }
+    .widge-content{
+        font-size: 10px;
+    }
+    #footer-top{
+        padding: 70px 0px;
+    }
+     /*query for product part*/
+    .ttle{
+        font-size: 10px;
+    }
+    .product-price span{
+        font-size: 12px;
+    }
+    .btn-link{
+        font-size: 10px;
+    }
+    .product p{
+        font-size: 7px;
+    }
+    .product span{
+        font-size: 7px;
+    }
+    .card-body p{
+        font-size: 7px;
+    }
+    .pplr-item h4{
+        font-size: 12px;
+    }
+    /*query for product part*/
+     /*query for checkout part*/
+    .delicio-returning-customer h3{
+        font-size: 10px;
+    }
+    .delicio-new-customer h3{
+        font-size: 10px;
+    }
+    .checkbox-submit-btn{
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+    .checkout-title h3{
+        font-size: 11px;
+    }
+    .form-control{
+        font-size: 10px;
+    }
+    .personal-info h3{
+    font-size: 10px;
+    }
+    .customer-address h3{
+        font-size: 10px;
+    }
+    .delicio-selling-product h3{
+        font-size: 7px;
+        margin-top: 14px;
+    }
+    .price strong{
+        font-size: 8px;
+    }
+    .price span{
+        font-size: 8px;
+    }
+    #delicio-checkout p{
+        font-size: 10px;
+    }
+    .delicio-returning-customer a {
+        font-size: 10px;
+    }
+    /*query for checkout part*/
+      /*query for single part*/
+    .delicio-single-item2 img{
+        width: 50%;
+    }
+    .product-info h3{
+        font-size: 12px;
+    }
+    .product-info span{
+        font-size: 12px;
+    }
+    .product-info p{
+        font-size: 8px;
+    }
+    .product-info .btn-cart{
+        font-size: 10px;
+        padding: 8px 8px;
+    }
+    .product-info input {
+    width: 70px;
+    height: 30px;
+    }
+    .product-info i{
+        font-size: 10px;
+    }
+    #single-product-info .nav-link{
+        font-size: 12px;
+    }
+    .tab-content > .active{
+        font-size: 12px;
+    }
+    #featured h3{
+        font-size: 12px;
+    }
+    /*query for single part*/
+     /*query for about part*/
+    #delicio-about h3{
+        font-size: 12px;
+    }
+    #delicio-about .features p{
+        font-size: 10px;
+    }
+      /*query for contact part*/
+    .contact-info h3{
+        font-size: 12px;
+    }
+    .contact-info strong{
+        font-size: 12px;
+    }
+    .contact-info{
+        font-size: 10px;
+    }
+    /*query for contact part*/
+    /*query for cart part*/
+    .cart-thead{
+        font-size: 8px;
+    }
+    .cart-data h3{
+        margin-top: 8px;
+    }
+    .cart-data span{
+        margin-top: 8px;
+    }
+    .cart-data .form-control{
+        margin-top: 8px;
+        height: 20px;
+    }
+    .cart-data i{
+        margin-top: 8px;
+    }
+    .cart-price-bg{
+        padding: 20px 0px;
+    }
+    .checkout-submit-btn:hover{
+        padding: 10px 15px;
+    }
+    #single-product-info .nav-link{
+        font-size: 7px;
+    }
+     /*query for cart part*/
+    
+}
+    

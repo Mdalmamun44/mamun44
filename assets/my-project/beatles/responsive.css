@@ -1,0 +1,31 @@
+@media (min-width:300px) and (max-width: 575.98px) {
+    .header-top {
+        text-align: center;
+    }
+    .text-right {
+    text-align: center !important;
+}
+    .header-main{
+        text-align: center;
+    }
+    .main-menu {
+    padding-right: 30px;
+}
+    .wid-content img{
+        width: 100px;
+    }
+    .wid-title {
+    margin-top: 20px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-menu ul li a {
+        font-size: 11px;
+        padding-left: 10px;
+    }
+.wid-title {
+    margin-top: 20px;
+}
+
+}

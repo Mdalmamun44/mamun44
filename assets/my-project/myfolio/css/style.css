@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+@font-face{
+    font-family:MyriadPro-Regular;
+    src:url(../fonts/MyriadPro-Regular.otf);
+}
+@font-face{
+    font-family:opensans-sem;
+    src:url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face{
+    font-family:opensans-reg;
+    src:url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family:opensans-bold;
+    src:url(../fonts/OpenSans-Bold.ttf);
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul,li,img,address,figure,figcaption{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button:focus{
+    outline: 0;
+}
+/*common css end*/
+
+header{
+    background:#02918c;
+}
+header nav .navbar-nav .nav-item .nav-link.active{
+    color: #c1d42b;
+}
+header nav .navbar-nav .nav-item .nav-link:hover{
+    color: #c1d42b;
+}
+header nav .navbar-nav .nav-item .nav-link{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 60px;
+    transition: all linear 0.3s;
+}
+
+/*header part end*/
+
+#baner{
+   background: url(../images/baner.png) no-repeat 50% 50%;
+    background-size:cover;
+    background-attachment:fixed;
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+#baner p{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+#baner h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 20px; 
+}
+#baner h4{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+#baner span a:hover{
+    background: #fff;
+}
+#baner span a{
+    color: #0b1016;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    background: #cfc91d;
+    line-height: 45px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 50px;
+}
+
+/*baner part end*/
+
+#about{
+    padding: 100px 0;
+    
+}
+.common_part h2{
+    color: #02918c;
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.common_part span{
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    display: inline-block;
+}
+.common_part p{
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 16px;
+    padding-bottom: 70px;
+}
+
+.common_part p strong{
+    font-size: 23px;
+    font-weight: 800;
+}
+#about .icon-part i:hover{
+    color:#1119d1;
+    transform: scale(1.3);
+}
+#about .icon-part i{
+    color: #229f9a;
+    font-size: 40px;
+    transition: all linear 0.3s;
+}
+#about .icon-part h3{
+    font-size: 16px;
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+#about .icon-part p{
+    font-size: 11px;
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+}
+#about .icon-part{
+    border-right: 1px solid red;
+    margin-top: 90px;
+    padding: 37px 0;
+}
+
+/*about part end*/
+
+#service{
+    background: #f0f0e8;
+    padding: 74px 0;
+    position:relative;
+}
+#service:after{
+    position: absolute;
+    content: '';
+    background:url(../images/baner-pic-2.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 0;
+}
+#service .content{
+    padding-top: 60px;
+}
+#service .content i{
+    font-size: 40px;
+}
+#service .content h3{
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding: 17px 0;
+}
+
+/*service part ead*/
+
+#work{
+    padding: 100px 0;
+}
+#work .galary-part{
+    margin-top: 70px;
+}
+#work .galary-part .image{
+    position: relative;
+    overflow: hidden;
+}
+#work .galary-part .image:hover .images-overlay{
+    opacity: 1;
+    top: 0;
+    right: 0;
+}
+#work .galary-part .image .images-overlay{
+    position: absolute;
+    top: -100%;
+    right: 0;
+    background: rgba(2, 145, 140,0.85);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transform: scale(.8);
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+#work .galary-part .image .images-overlay h3{
+  color: #fff;
+    padding-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+#work .galary-part .image .images-overlay p{
+    color: #fff;
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    
+}
+
+/*work part end*/
+
+#contact{
+    
+}
+#contact .contact_filt{
+    background: #1c0202;
+}
+#contact .contact_filt .text-filt{
+    width: 100%;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400px;
+    border-bottom: 1px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+#contact .contact_filt textarea{
+    width: 100%;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400px;
+    border-bottom: 1px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 40px;
+    margin-top: 60px;
+    resize: none;
+}
+#contact .contact_filt .bt-sent:hover{
+    background: #26ebeb;
+}
+#contact .contact_filt .bt-sent{
+    background: #ddd626;
+    font-size: 14px;
+    height: 47px;
+    display: inline-block;
+    padding: 0 70px;
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    border: 0;
+    text-transform: uppercase;
+    color: #1d0808;
+    margin-bottom: 65px;
+    transition: all linear 0.3s;
+}
+
+
+#futter{
+    background: #000;
+}
+#futter p{
+    color: #fff;
+    line-height: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/*END*/
+
+
+
+
+
+
+
+/*
+
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,973 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+   
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+}
+
+
+
+/*---common css end--*/
+
+/*---header top css start--*/
+
+.header-top {
+    background: #7F574C;
+    padding: 10px;
+}
+
+.header-top ul {
+    float: right;
+}
+
+.header-top ul li {
+    float: left;
+    padding: l;
+    padding-left: 40px;
+    text-transform: capitalize;
+}
+
+.header-top ul li a {
+    color: #fff;
+}
+
+.header-top-txt {
+    font-size: 14px;
+    color: #fff;
+}
+
+/*---header top css end--*/
+
+/*-- Logo and Navbar css --*/
+
+header {
+    background: #FFFFFF;
+
+}
+
+header nav .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    color: #212028;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 0px 20px;
+}
+
+header nav .navbar-nav .nav-item .nav-link:hover {
+    color: #000;
+    background: #7F574C;
+}
+
+/* header css end*/
+/*dropdown css*/
+.dropdown-item{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:hover {
+    color: #FF5353;
+}
+
+/*dropdown css end*/
+
+/*banner css start*/
+
+.slide-bg {
+    background: url(assets/img/chocolate.jpg) center no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    position: relative;
+}
+
+#banner h2 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.banner-carousel .owl-dots {
+    display: none;
+}
+
+.owl-prev {
+    position: absolute;
+    content: '';
+    top: 42%;
+    left: 0;
+}
+
+.owl-next {
+    position: absolute;
+    content: '';
+    top: 42%;
+    right: 0;
+}
+
+.owl-next i {
+    font-size: 20px;
+    padding: 10px 10px;
+    background: #ffff;
+    ;
+}
+
+.owl-prev i {
+    font-size: 20px;
+    padding: 10px 10px;
+    background: #ffff;
+}
+
+.owl-next:hover i {
+    background: #FF5539;
+
+}
+
+.owl-prev:hover i {
+    background: #FF5539;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.btn.offer {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: #fff;
+    margin-top: 20px;
+    background: #BE8C60;
+}
+
+.btn.offer:hover {
+    background: #0084B4;
+    color: #000;
+    transition: all linear 0.4s;
+    border: 1px solid #0084B4;
+}
+
+/*banner css end*/
+
+/*shop css start*/
+
+#shop {
+    background: #5A423B;
+    padding: 100px 0px;
+}
+
+#shop a {
+    margin: 0px 80px;
+    color: #5A423B;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#shop i {
+    margin-right: 20px;
+}
+
+.shop-type {
+
+    background: #FFF;
+    padding: 40px 0px;
+    position: absolute;
+    top: -160px;
+    z-index: 999;
+
+}
+
+.pplr-item h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.pplr-item {
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.pplr-item .ovrly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(127, 87, 76, .6);
+}
+
+.ovrly h3 {
+    margin-top: 50%;
+}
+
+.pplr-item .view {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+}
+
+#shop .pplr-item .view {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.pplr-item:hover .overlay{
+    opacity: 1;
+    transition: all linear 0.4s;
+    top: 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba(90, 66, 59, .3);
+    opacity: 0;
+}
+
+.overlay i {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 50%;
+    padding: 10px 10px;
+    opacity: 1;
+    background: #1E1918;
+    border-radius: 50%;
+}
+
+.overlay i:hover {
+    color: #81bf2b;
+    background: #fff;
+    transition: all linear 0.4s;
+}
+
+.item-text {
+    background: #fff;
+}
+
+.item-text p {
+    font-size: 16px;
+    color: #1E1918;
+    text-transform: uppercase;
+}
+
+.item-text span {
+    font-size: 20px;
+    color: #1E1918;
+    margin-top: 20px;
+    display: block;
+}
+
+/*shop css end*/
+
+/*shoping offer css start*/
+
+#shoping-offer {
+    padding: 100px 0px;
+    background: #1E1918;
+}
+
+#shoping-offer h2 {
+    font-size: 25px;
+    color: #fff;
+}
+
+/*shoping offer css end*/
+
+/*footer-top css*/
+
+#footer-top {
+    padding: 100px 0px;
+    background: #382925;
+}
+
+.widge-title h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.widge-link ul {
+    column-count: 2;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.widge-link ul li a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.widge-content {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#footer-top span {
+
+    font-size: 16px;
+    color: #926B4C;
+    display: block;
+    margin-top: 20px;
+
+}
+
+/*footer-top css end */
+
+/*footer-mai css*/
+
+#main-footer {
+    background: #2D2220;
+    padding: 20px 0px;
+}
+
+#main-footer {
+    color: #e7e5de;
+    font-size: 12px;
+}
+
+#main-footer a i {
+
+    float: right;
+    color: #4D3C39;
+    margin-left: 10px;
+
+}
+
+/*footer-main css end */
+
+/*products css  */
+
+.delicio-bg {
+    background: #fff;
+    padding-bottom: 20px;
+}
+
+#delicio-products {
+    background: #5A423B;
+    padding: 20px 0px;
+}
+
+/*products breadcrumb css  */
+
+#delicio-breadcrumb {
+    background: #382925
+}
+
+#delicio-breadcrumb h3 {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#delicio-breadcrumb .breadcrumb {
+    background: 0;
+    float: right;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#delicio-breadcrumb .breadcrumb a {
+    color: #fff;
+}
+
+.breadcrumb-item.active {
+    color: #fff;
+}
+
+/*products breadcrumb css  end */
+
+.ttle {
+
+    background: #170a06;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    text-align: center;
+
+}
+
+.product-price span {
+    font-size: 15px;
+    color: #5A423B;
+    display: block;
+    margin-top: 10px;
+}
+
+/*products card css  */
+
+.product-catagories .card {
+
+    background: 0;
+    border: 0;
+
+}
+
+.product-catagories .card-header {
+    padding: 0;
+}
+
+.btn-link {
+    color: #5A423B;
+    text-transform: capitalize;
+}
+
+/*products card css  end*/
+
+.product {
+    margin-top: 20px;
+}
+
+.product img {
+    width: 25%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+
+}
+
+.product p {
+    font-size: 13px;
+    color: #1E1918;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.product span {
+    font-size: 13px;
+    color: #1E1918;
+    margin-top: 10px;
+    display: block;
+}
+
+.pplr-item h4 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+/*products css end */
+
+/* single product css*/
+
+#delicio-single-product {
+    padding: 20px 0px;
+    background: #5A423B;
+}
+
+.product-info h3 {
+    font-size: 20px;
+    color: #5A423B;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.product-info-bg {
+    background: #fff;
+}
+
+.product-info span {
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+.product-info p {
+    font-size: 12px;
+    color: #554a4c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-info input {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+}
+
+.product-info .btn-cart {
+    font-size: 13px;
+    color: #fff;
+    background: #5A423B;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.product-info h6 {
+    font-size: 12px;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.product-info i {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #000;
+}
+
+.delicio-single-item2 img {
+    width: 40%;
+    margin: 20px 10px;
+}
+
+#single-product-info {
+    background: #5A423B;
+    margin-top: 30px;
+}
+
+#single-product-info .nav-link {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #5A423B;
+}
+
+#single-product-info .nav-link.active.show {
+    background: #382925;
+}
+
+.card-body p {
+    font-size: 12px;
+}
+
+.delicio-tabs {
+    background: #fff;
+    padding: 40px 20px;
+}
+
+.tab-content {
+    margin-top: 40px;
+}
+
+#featured {
+    background: #5A423B;
+    padding: 20px 0px;
+}
+#featured h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #382925;
+    padding: 10px;
+}
+/* single product css*/
+
+/*delicio about css*/
+
+#delicio-about h3 {
+    font-size: 16px;
+    color: #5A423B;
+    text-transform: uppercase;
+}
+
+#delicio-about .features p {
+    font-size: 13px;
+    color: #5A423B;
+    margin-top: 20px;
+}
+
+#delicio-about {
+    padding: 20px 0px;
+    background: #5A423B;
+}
+
+.features {
+    background: #fff;
+    padding: 20px 0px;
+}
+
+#delicio-breadcrumb.about-breadcrumb {
+    padding-bottom: 100px;
+}
+
+/*delicio about css end*/
+
+/*delicio contact css*/
+
+#delicio-contact {
+    background: #5A423B;
+    padding: 20px 0px;
+}
+.contact-form {
+    background: #fff;
+    margin-top: 40px;
+    padding: 40px 20px;
+}
+
+.contact-form h3 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background: #5A423B;
+    padding: 10px 10px;
+}
+
+.contact-form p {
+    font-size: 13px;
+    color: #5A423B;
+    padding-top: 10px;
+}
+
+.contact-form .form-control {
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 13px;
+    box-shadow: none;
+    border: none;
+    background: #5A423B;
+    color: #fff;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 40px;
+    float: right;
+    text-transform: uppercase;
+    background: #5A423B;
+    padding: 10px 15px;
+    border-radius: 5%;
+    border: none;
+}
+
+.submit-btn:hover {
+    transform: skewX(-10deg);
+}
+
+.contact-info {
+    background: #fff;
+    padding: 20px 20px;
+}
+
+.contact-info h3 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #5A423B;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.contact-info strong {
+    font-size: 16px;
+    color: #5A423B;
+    text-transform: uppercase;
+    background: #f5f5f5;
+    display: inherit;
+    margin-top: 5px;
+    padding: 5px 5px;
+}
+
+.contact-info span {
+    float: right;
+}
+
+/*delicio contact css end*/
+
+/*delicio checkout  css */
+
+#delicio-checkout {
+    background: #5A423B;
+
+}
+
+form {
+    background: #fff;
+    padding: 20px 20px;
+}
+
+.checkout-title h3 {
+    font-size: 18px;
+    color: #fff;
+    background: #5A423B;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.delicio-new-customer h3 {
+    font-size: 16px;
+    color: #5A423B;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 12px;
+    color: #5A423B;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+#delicio-checkout p {
+    font-size: 13px;
+    color: #5A423B;
+    margin-top: 10px;
+}
+
+.checkbox-submit-btn {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #5A423B;
+    margin: 20px 0px;
+    padding: 10px 15px;
+    border-radius: 5%;
+    border: none;
+}
+
+.checkbox-submit-btn:hover {
+    padding-right: 25px;
+    transition: all linear .4s;
+    background: green;
+
+}
+
+.delicio-returning-customer h3 {
+    font-size: 16px;
+    color: #5A423B;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.form-control {
+    font-size: 14px;
+    color: #5A423B;
+    text-transform: capitalize;
+    height: 30px;
+    margin-top: 20px;
+    /*! box-shadow: none; */
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid;
+}
+
+.delicio-returning-customer a {
+    font-size: 13px;
+    color: #5A423B;
+    margin-top: 20px;
+    display: block;
+}
+
+.personal-info h3 {
+    font-size: 16px;
+    color: #5A423B;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.customer-address h3 {
+    font-size: 16px;
+    color: #5A423B;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.checkout-title.more-field h3 {
+    margin-top: 9px;
+    padding: 10px 10px;
+}
+
+.delicio-selling-product {
+    margin-top: 20px;
+    float: left;
+}
+
+.delicio-selling-product img {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+.delicio-selling-product h3 {
+    font-size: 18px;
+    color: #5A423B;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.delicio-selling-product span {
+    color: #000;
+    padding-left: 15px;
+}
+
+.price span {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 15px;
+}
+
+.price strong {
+    padding-left: 20px;
+    font-size: 18px;
+    float: right;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.bg {
+    background: #fff;
+    padding: 20px 30px;
+}
+
+/*delicio checkout css end*/
+
+/*delicio cart css*/
+
+#delicio-cart {
+    background: #5A423B;
+    padding: 20px;
+}
+
+.cart-thead {
+    font-size: 13px;
+    text-transform: uppercase;
+    background:#382925;
+    color: #fff;
+}
+.cart-data h3{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #5A423B;
+     margin-top: 50px;
+}
+.cart-data{
+    border-top: none;
+}
+.delicio-carts {
+    background: #fff;
+    padding-top: 20px;
+}
+.table td, .table th{
+    padding: 0;
+    border-top: none;
+}
+.cart-data img {
+  margin-top: 5px;
+}
+.cart-data span {
+  margin-top: 46px;
+  display: block;
+    color: #5A423B;
+}
+.cart-data .form-control {
+  margin-top: 45px;
+    width: 70px;
+}
+.cart-data i {
+  margin-top: 45px;
+    color: #5A423B;
+}
+.cart-price-bg {
+  background: #fff;
+  padding: 66px 20px;
+}
+.checkout-submit-btn {
+  font-size: 13px;
+  color: #fff;
+  background: #5A423B;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 40px;
+  border-radius: 5%;
+    text-transform: capitalize;
+}
+.checkout-submit-btn:hover{
+    background: #374e2d;
+    padding-right: 25px;
+    transition: all linear 0.4s;
+}
+/*delicio cart css end*/

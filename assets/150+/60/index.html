@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flip-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="hover flipbox">
+                        <div class="front">
+                            <div class="flip-box-service">
+                                <div class="flip-box-table-cell">
+                                    <i class="fa fa-star"></i>
+                                    <h3>General service name</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="flip-box-service">
+                                <div class="flip-box-table-cell">
+                                    <i class="fa fa-star"></i>
+                                    <h3>General service name</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="hover flipbox">
+                        <div class="front">
+                            <div class="flip-box-service">
+                                <div class="flip-box-table-cell">
+                                    <i class="fa fa-star"></i>
+                                    <h3>General service name</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="flip-box-service">
+                                <div class="flip-box-table-cell">
+                                    <i class="fa fa-star"></i>
+                                    <h3>General service name</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="hover flipbox">
+                        <div class="front">
+                            <div class="flip-box-service">
+                                <div class="flip-box-table-cell">
+                                    <i class="fa fa-star"></i>
+                                    <h3>General service name</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="flip-box-service">
+                                <div class="flip-box-table-cell">
+                                    <i class="fa fa-star"></i>
+                                    <h3>General service name</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/OwlCarousel2Thumbs.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            // set up hover panels
+            // although this can be done without JavaScript, we've attached these events
+            // because it causes the hover to be triggered when the element is tapped on a touch device
+            $('.hover').hover(function() {
+                $(this).addClass('flip');
+            }, function() {
+                $(this).removeClass('flip');
+            });
+        });
+
+    </script>
+</body>
+
+</html>

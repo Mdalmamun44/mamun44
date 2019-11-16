@@ -1,0 +1,409 @@
+@media(min-width:768px) and (max-width:991px){
+    header nav .navbar-nav .nav-item .nav-link:hover{
+        color: #1255d1;
+    }
+    header nav .navbar-nav .nav-item .nav-link.active{
+        color: #1255d1;
+    }
+/*header end*/
+    #baner{
+        padding-top: 145px;
+        padding-bottom: 150px;
+    }
+    #baner p{
+        font-size: 22px;
+        color: #c3b9b9;
+    }
+    #baner h1{
+        font-size: 60px;
+        letter-spacing: 9px;
+        color: #e31818;
+    }
+    #baner h4{
+        font-size: 14px;
+        padding-bottom: 40px;
+        color: #64ed12;
+    }
+/*baner end*/
+    
+    #about{
+        padding: 60px 0;
+    }
+    .common_part h2{
+        font-size: 40px;
+    }
+    .common_part span{
+        padding-top: 0;
+    }
+    .common_part p{
+        padding-top: 10px;
+        font-size: 13px;
+        line-height: 32px;
+    }
+    .common_part p strong{
+        font-size: 18px;
+    }
+    #about .icon-part{
+        margin-top: 40px;
+    }
+    #about .icon-part.border-md0{
+        border-right: 0;
+    }
+    #service{
+        background: none;
+    }
+    #service::after{
+        z-index: -1;
+    }
+    #service::before{
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 50%;
+        background: #f0f0e8;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+
+/*service end*/
+    
+    #work .common_part p{
+        padding-bottom: 0;
+    }
+    #work{
+        padding: 55px 0;
+    }
+    #work .galary-part .image .images-overlay h3{
+        padding-top: 80px;
+    }
+/*work part end*/
+    
+    #contact .common_part p{
+        padding-bottom: 50px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    header .navbar-light .navbar-toggler{
+        border: 1px solid #fff;
+        border: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    .ml-auto, .mx-auto{
+        text-align: center;
+    }
+    header nav .navbar-nav .nav-item .nav-link{
+        line-height: 54px;
+        font-size: 17px;
+    }
+    header nav .navbar-nav .nav-item .nav-link:hover{
+        background: #fff;
+    }
+    header .navbar-nav{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        border-top: 2px solid rgba(255, 255, 255,0.5);
+    }
+/*header part end*/
+    
+    #baner p{
+        font-size: 20px;
+    }
+    #baner h1{
+        font-size:50px ;
+        letter-spacing: 3px;
+        line-height: 80px;
+    }
+    #baner h4{
+        padding-bottom: 25px;
+    }
+    #baner span a{
+        margin-top: 40px;
+    }
+    
+/*baner end*/
+    #about{
+        padding: 60px 0;
+    }
+    .common_part h2{
+        font-size: 40px;
+    }
+    .common_part span{
+        padding-top: 0;
+    }
+    .common_part p{
+        font-size: 15px;
+        line-height: 33px;
+    }
+    .common_part p strong{
+        font-size: 19px;    
+    }
+    #about .icon-part.border-md0{
+        border-right: 0;
+    }
+    #about .icon-part{
+        margin-top: 30px;
+    }
+    
+/*about end*/
+    
+    #work{
+        padding: 60px 0;
+    }
+    #service{
+        background: none;
+    }
+    #service::after{
+        z-index: -1;
+    }
+    #service::before{
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 50%;
+        background: #f0f0e8;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+    #work .common_part p{
+        padding-bottom: 0;
+    }
+    #work .galary-part .image .images-overlay h3{
+        padding-top: 40px;
+    }
+
+/*word end*/
+    
+    #contact .common_part p{
+        padding-top: 10px;
+        padding-bottom: 36px;
+    }
+    #contact .contact_filt .text-filt{
+        padding-top: 30px;
+        padding-bottom: 8px;
+    }
+    #contact .contact_filt textarea{
+        margin-top: 30px;
+    }
+    #contact .contact_filt .bt-sent{
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    #futter p{
+        line-height: 45px;
+    }
+}
+
+@media(min-width:320px) and (max-width:575px){
+    
+    header .navbar-light .navbar-toggler{
+        border: 1px solid #fff;
+        border: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    .ml-auto, .mx-auto{
+        text-align: center;
+    }
+    header nav .navbar-nav .nav-item .nav-link{
+        line-height: 54px;
+        font-size: 17px;
+    }
+    header nav .navbar-nav .nav-item .nav-link:hover{
+        background: #fff;
+    }
+    header .navbar-nav{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        border-top: 2px solid rgba(255, 255, 255,0.5);
+    }
+    
+/*header endddddd*/
+    
+    #baner{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #baner p{
+        font-size: 13px;
+        color: #c3b9b9;
+    }
+    #baner h1{
+        font-size: 46px;
+        letter-spacing: 1px;
+        color: #eb3434;
+    }
+    #baner h4{
+        padding-bottom: 20px;
+        font-size: 13px;
+        color: #64ed12;
+    }
+    #baner span a{
+        margin-top: 40px;
+    }
+    
+/*baner end*/
+    
+    
+    #about{
+        padding: 50px 0;
+    }
+    .common_part h2{
+        font-size: 35px;
+    }
+    .common_part span{
+        padding-top: 0;
+    }
+    .common_part p{
+        font-size: 11px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .common_part p strong{
+        font-size: 16px;
+    }
+/* about end   */
+    
+    #service{
+        padding: 20px 0;
+    }
+    #service .common_part h2{
+        font-size: 24px;
+    }
+    
+    #service{
+        background: none;
+    }
+    #service::after{
+        z-index: -1;
+    }
+    #service::before{
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 50%;
+        background: #f0f0e8;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+    .common_part span{
+        font-size: 11px;
+    }
+    #service .common_part p{
+        font-size: 11px;
+        line-height: 18px;
+        
+    }
+    #service .content{
+        padding-top: 40px;
+    }
+    #service .content h3{
+        font-size: 14px;
+        padding: 15px;
+    }
+    
+/*service end*/
+    
+    #work{
+        padding: 50px 0;
+    }
+    #work .galary-part .image .images-overlay p{
+        line-height: 15px;
+        font-size: 10px;
+        padding-top: 7px;
+            
+    }
+    #work .galary-part .image .images-overlay h3{
+        font-size: 16px;
+        padding-top: 19px;
+    }
+    #contact .common_part p{
+        line-height: 20px;
+        
+    }
+    
+    #contact .contact_filt .text-filt{
+        padding-top: 20px;
+        font-size: 13px;
+        padding-bottom: 7px;
+    }
+    #contact .contact_filt textarea{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    #contact .contact_filt .bt-sent{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        height: 40px;
+        padding: 0 50px;
+    }
+    #futter p{
+        line-height: 50px;
+    }
+    
+    
+    
+        
+
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

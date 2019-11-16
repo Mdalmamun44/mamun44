@@ -1,0 +1,113 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+.section-padding {
+    padding: 80px 0;
+}
+
+body {
+  line-height: 2;
+  font-size: 17px;
+}
+.tablist {
+  border-bottom: 2px solid #7f7f7f7f;
+  margin-bottom: 30px;
+}
+.tablist li {
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  padding-left: 0;
+}
+.tablist li a {
+  color: #7f7f7f;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.tablist li:active a{
+  color: #333;
+}
+.tablist li:active a:after {
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: #333;
+  content: '';
+  z-index: 1;
+}
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

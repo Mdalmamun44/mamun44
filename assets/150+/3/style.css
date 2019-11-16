@@ -1,0 +1,107 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+
+
+.video-area-bg{
+    background: url(assets/img/2.jpg) no-repeat center;
+    background-size: cover;
+}
+.video-area {
+  position: relative;
+    margin-top: 100px;
+}
+.video-area-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 46%;
+  box-shadow: 0 0 10px #7f7f7f;
+}
+.video-play-btn {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  width: 50px;
+  height: 50px;
+  background: #000;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+  margin-top: -25px;
+}
+
+
+
+
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

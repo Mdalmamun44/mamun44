@@ -1,0 +1,244 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+.welcome-hero-area {
+    background-image: url(assets/img/banner.jpg);
+}
+
+.welcome-hero-area {
+    height: 100%;
+    background-color: #333;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.logo-area a {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.mainmenu-area li {
+    display: inline-block;
+    padding: 20px 0;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.mainmenu-area li a {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.mainmenu-area li a:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 1px;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+
+.mainmenu-area li a:hover:after {
+    opacity: 1;
+}
+
+.hero-area-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-area-logo h3 {
+    font-size: 30px;
+    color: #fff;
+    font-family: italic;
+    text-transform: uppercase;
+}
+
+.hero-area-logo h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bodered-area {
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.borderd-left {
+    float: left;
+    width: 120px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.borderd-right {
+    float: left;
+    width: 120px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px
+}
+
+.bodered-area i {
+    float: left;
+    color: #fff;
+    margin: 0 10px;
+}
+
+p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.borderd-left::after {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    content: '';
+    left: -4px;
+    top: -3px;
+    z-index: 1;
+}
+.borderd-right::after {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    content: '';
+    right: -4px;
+    top: -3px;
+    z-index: 1;
+}
+.welcome-hero-area::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    background: #000;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+
+/**
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

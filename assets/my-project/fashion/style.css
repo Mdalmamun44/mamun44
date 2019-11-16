@@ -1,0 +1,1012 @@
+header-main {
+    background: #F5F3F4;
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#cssmenu {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+}
+
+#cssmenu > ul {
+    float: right;
+}
+
+#cssmenu > ul > li {
+    float: left;
+}
+
+#cssmenu > ul > li > a {
+    padding: 20px 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fd8a17;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+    color: #444444;
+}
+
+/*header-main css*/
+
+/*banner css */
+
+#banner {
+    background: url(assets/img/her2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.banner-overlay {
+    background: rgb(0, 0, 0, .5);
+    padding: 200px 0px;
+}
+
+.banner-overlay h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.banner-overlay p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 0px 140px;
+}
+
+.btn.btn-secondary.recipies {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: none;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    padding: 10px 15px;
+}
+
+/**********banner css**************/
+
+/**********banner css**************/
+
+/**********banner css**************/
+
+/**********banner css**************/
+
+/**********banner css**************/
+
+/**********banner css**************/
+
+/**********banner features css**************/
+
+#zenna-features {
+    padding: 100px 0px;
+}
+
+.features-img {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.features-img .img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay h3 a {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 50%;
+    display: block;
+}
+
+.overlay span a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hot-item {
+    margin-top: 20px;
+}
+
+/**********banner features css end**************/
+
+/**********trendy-products css**************/
+
+#zenna-trendy-products {
+    padding: 100px 0px;
+}
+
+.common-part span {
+    font-size: 16px;
+    color: #222222;
+    text-transform: capitalize;
+}
+
+.common-part h2 {
+    font-size: 25px;
+    color: #222222;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.common-part h2::after {
+    position: absolute;
+    content: '';
+    left: 47%;
+    bottom: -20px;
+    background: #000;
+    width: 50px;
+    height: 2px;
+}
+
+/**********trendy-products css end**************/
+
+/**********testimonials css**************/
+
+#zenna-testimonials {
+    padding: 100px 0px;
+    background: #1C1C1C;
+}
+
+#zenna-testimonials .common-part h2 {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.owl-dot span {
+    width: 14px;
+    height: 15px;
+    background: #fff;
+    z-index: 99999;
+    display: inline-block;
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+
+.owl-dots {
+    text-align: center;
+    top: 30px;
+    position: relative;
+}
+
+.owl-dot.active span {
+    background: #FF5539;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+.testimonial-slide-item p {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 50px;
+}
+
+.testimonial-slide-item span {
+    font-size: 14px;
+    color: #272727;
+}
+
+/**********testimonials css end**************/
+
+/**********products css**************/
+
+#zenna-products {
+    padding: 100px 0px;
+}
+
+.product-categories {
+    font-size: 18px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.product-img {
+    height: 60px;
+    width: 56px;
+    float: left;
+    margin-right: 10px;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-title {
+    font-size: 16px;
+    color: #222222;
+    text-transform: capitalize;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #000;
+}
+
+.product-description {
+    margin-top: 30px;
+}
+
+/**********products css end**************/
+
+/**********newsletter css**************/
+
+#zenna-newsletter {
+    padding: 50px 0px;
+    background: #F7F8F9;
+}
+
+#zenna-newsletter .form-control {
+    width: 520px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#zenna-newsletter label {
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    margin-right: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+#zenna-newsletter .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+#zenna-newsletter .btn.btn-primary {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: #000;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+/**********newsletter css end**************/
+
+/**********footer css**************/
+
+.widget-logo {
+    font-size: 30px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.social-icon ul li a {
+    float: left;
+    margin-right: 20px;
+    color: #272727;
+}
+
+.social-icon {
+    margin-top: 40px;
+}
+
+.widget-content {
+    font-size: 16px;
+    color: #272727;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.widget-content ul li a {
+    font-size: 14px;
+    color: #222222;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.widget-title h3 {
+    font-size: 20px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+#footer-top {
+    padding: 100px 0px;
+}
+
+.payment-method {
+    float: right;
+}
+
+/**********footer css end**************/
+
+/**********home2 banner css**************/
+
+.hero-area span {
+    font-size: 40px;
+    color: #a68561;
+}
+
+.hero-area h1 {
+    font-size: 70px;
+    color: #000;
+}
+
+.hero-area h6 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #4e4d4d;
+}
+
+/**********home2 banner css**************/
+
+/**********gallery css**************/
+
+#zenna-gallery {
+    padding: 100px 0px;
+}
+
+.gallery-item img {
+    margin-top: 20px;
+}
+
+.gallery-item ul {
+    column-count: 2;
+}
+
+.item-price a {
+    float: right;
+    font-size: 13px;
+    color: #222;
+}
+
+.rating {
+    float: right;
+    font-size: 14px;
+    color: #b79d82;
+}
+
+.item-title a {
+    font-size: 15px;
+    color: #222222;
+    text-transform: capitalize;
+}
+
+.item-for a {
+    font-size: 13px;
+    color: #272727;
+    text-transform: capitalize;
+}
+
+/**********gallery css end**************/
+
+/**********collection css**************/
+
+#zenna-product-collection {
+    padding: 100px 0px;
+    background: #2A2A2A;
+}
+
+#zenna-product-collection h2 {
+    font-size: 80px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#zenna-product-collection p {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/**********collection css end**************/
+
+/**********blog css *************/
+
+#zenna-blog {
+    padding: 100px 0px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 500px;
+}
+
+.blog-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.blog-item {
+    margin-top: 20px;
+}
+
+.blog-title a {
+    font-size: 24px;
+    color: #222222;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: block;
+}
+
+   .blog-content a i {
+    font-size: 14px;
+    color: #ababab;
+    margin-right: 28px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+/**********blog css end**************/
+
+/**********logo area  css**************/
+
+#zenna-logo-area {
+
+    padding: 100px 0px;
+    background: #000000;
+
+}
+
+/**********logo area  css end**************/
+
+/**********side bar catalog css **************/
+
+.sidebar-title h3 {
+    font-size: 16px;
+    color: #121212;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#catalog-with-sidebar .content ul li a {
+    font-size: 14px;
+    color: #7f7f7f;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+
+#catalog-with-sidebar .content ul li a:hover {
+    color: #000;
+    transform: all linear 0.4s
+}
+
+#catalog-with-sidebar .content ul li a strong {
+    float: right;
+}
+
+.content input {
+    margin-right: 10px;
+}
+
+.content ul li .tags {
+    float: left;
+    margin: 10px 10px;
+    padding: 0px 10px;
+    background: #c1baba;
+
+}
+
+/**********side bar catalog css end **************/
+
+/**********single product css**************/
+
+.owl-prev {
+    position: absolute;
+    content: '';
+    top: 42%;
+    left: 0;
+}
+
+.owl-next {
+    position: absolute;
+    content: '';
+    top: 42%;
+    right: 0;
+}
+
+.owl-next i {
+    font-size: 20px;
+    padding: 10px 10px;
+    background: #ffff;
+    ;
+}
+
+.owl-prev i {
+    font-size: 20px;
+    padding: 10px 10px;
+    background: #ffff;
+}
+
+.owl-next:hover i {
+    background: #FF5539;
+
+}
+
+.owl-prev:hover i {
+    background: #FF5539;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.owl-thumb-item {
+
+    width: 100px;
+    margin-right: 8px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.single-product-breadcrumb ul li a {
+    font-size: 14px;
+    color: #000;
+    text-transform: capitalize;
+    margin-right: 10px;
+    float: left;
+}
+
+.single-product-price span {
+    float: left;
+    font-size: 14px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.comment {
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.black {
+    width: 30px;
+    height: 30px;
+    background: #000;
+}
+
+.red {
+    width: 30px;
+    height: 30px;
+    background: #f01;
+}
+
+.grey {
+    width: 30px;
+    height: 30px;
+    background: #a59a9a;
+}
+
+.product-size ul li a {
+    float: left;
+    margin-right: 10px;
+    padding: 5px 5px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.more-info span {
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.btn-link h3 {
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#accordion {
+    margin-top: 40px;
+}
+
+.card-body {
+    font-size: 14px;
+}
+
+.share-product ul li a {
+    font-size: 14px;
+    color: #000;
+    float: left;
+    margin-right: 20px;
+}
+
+.product-ttle {
+    margin-top: 20px;
+}
+
+.single-product-price {
+    margin-top: 10px;
+}
+
+label {
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    float: left;
+    margin-right: 10px;
+}
+
+.product-color ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.product-color {
+    margin-top: 40px;
+}
+
+.product-size {
+    margin-top: 40px;
+}
+
+.quantity {
+    margin-top: 40px;
+}
+
+input {}
+
+.quantity input {
+    width: 50px;
+    border: 1px solid #7f7f7f;
+}
+
+.quantity .btn-primary {
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.quantity i {
+    font-size: 14px;
+    color: #f01;
+    padding: 8px;
+    background: #7f7f7f;
+    margin-left: 10px;
+}
+
+.more-info {
+    margin-top: 40px;
+}
+
+.share-product {
+    margin-top: 40px;
+}
+
+#related-product {
+    padding: 100px 0px;
+}
+
+/**********single product css end**************/
+
+/**********zenna about css**************/
+.about-shop h3 {
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+}
+.about-shop p {
+  font-size: 14px;
+  color: #7f7f7f;
+  margin-top: 20px;
+}
+.shop-more-info strong {
+  font-size: 18px;
+  color: #000;
+  display: block;
+}
+.shop-more-info {
+  margin-bottom: 20px;
+}
+#zenna-shop {
+  padding: 100px 0px;
+}
+.team-member-img {
+  height: 300px;
+  width: 100%;
+  margin-top: 40px;
+}
+.team-member-img img {
+  height: 100%;
+  width: 100%;
+}
+.description h3 {
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.description span {
+  font-size: 14px;
+  color: #7f7f7f;
+  text-transform: capitalize;
+}
+#zenna-team {
+  padding: 100px 0px;
+}
+.best-idea .btn.btn-primary-lg {
+  font-size: 70px;
+  color: #fff;
+  border: 3px solid #fff;
+    padding: 10px 30px
+}
+#zenna-best-idea {
+  padding: 100px 0px;
+  background: #666666;
+}
+/**********zenna about css end**************/
+
+/**********ze**************/
+#blog-with-sidebar .owl-dots {
+    top: -30px;
+}
+.date {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.date i {
+  margin-right: 10px;
+}
+.tweets span {
+  font-size: 16px;
+  color: #7f7f7f;
+}
+.tweets strong {
+  color: #C7B3A0;
+}
+.tweets h6 {
+    font-size: 14px;
+    color: #7f7f7f;
+    margin-top: 5px;
+}
+.fllow-link a {
+    font-size: 14px;
+    color: #C7B3A0;
+    margin-top: 20px;
+    display: block;
+}
+#blog-with-sidebar .content ul li a {
+    font-size: 14px;
+    color: #7f7f7f;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+#blog-with-sidebar .content ul li a:hover {
+    color: #000;
+    transition: all linear 0.4s;
+}
+.blog-post .btn-primary {
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    background: 0;
+    border: 1px solid #7f7f7f;
+    margin: 20px 0px;
+}
+.blog-content p {
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}
+.blog-post .btn-primary:hover {
+    background: #7f7f7f;
+    color: #fff;
+    transition: all linear 0.4s;
+}
+.pagination {
+    margin-top: 20px;
+}
+.pagination .page-link {
+    font-size: 14px;
+    color: #000;
+}
+#blog-with-sidebar {
+    padding: 100px 0px;
+}
+/**********ze**************/
+/**********zenna blog single**************/
+.user-img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+}
+.user-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  text-align: center;
+}
+.cmnt {
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.user-comment {
+  margin-top: 40px;
+}
+.user-comment p {
+  font-size: 13px;
+  color: #7f7f7f;
+  margin-top: 10px;
+    margin-left: 110px;
+}
+.user-comment h3 a {
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+}
+.user-comment {
+}
+.user-comment .post-date-time {
+  font-size: 12px;
+  color: #7f7f7f;
+  margin-top: 10px;
+}
+form .form-title {
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+form .form-control {
+  font-size: 14px;
+  color: #7f7f7f;
+  text-transform: capitalize;
+ margin-top: 10px;
+}
+form .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: #7f7f7f;
+}
+.btn.btn-submit {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #000;
+    margin-top: 40px;
+}
+.btn:focus{
+outline: 0;
+    box-shadow: none;
+}
+/**********zenna blog single**************/
+/**********contact css **************/
+#zenna-contact {
+    padding: 100px 0px;
+}
+.contact-info .widget-content a {
+  display: block;
+  font-size: 14px;
+  color: #7f7f7f;
+  line-height: 30px;
+    margin-bottom: 20px;
+}
+.contact-info .widget-content a:hover{
+    color: #000;
+}
+.contact-info .widget-content i {
+  margin-right: 10px;
+}
+.contact-info .widget-content span {
+  font-size: 14px;
+  color: #7f7f7f;
+  display: block;
+  line-height: 30px;
+}
+.widget-content ul li a:hover {
+    color: #000;
+}
+/**********contact css end**************/
+/**********footer css end**************/
+
+/************common css****************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+/*************common css end*******/

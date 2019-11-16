@@ -1,0 +1,257 @@
+/**
+ * This is the primary stylesheet
+ * @Atuhor: Mamun;
+ * @Author Link: https://mdalmamun.xyz;
+ */
+
+#portfolio {
+    padding: 100px 0px;
+}
+
+#portfolio .port_menu {
+    margin: 40px 0px 25px;
+}
+
+#portfolio .port_menu button {
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 10px;
+    line-height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+#portfolio .port_menu button:hover {
+    color: #F26426
+}
+
+#portfolio .port_menu button:before {
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    content: '';
+    background: #F26426;
+    transition: all linear .3s;
+    opacity: 0;
+}
+
+#portfolio .port_menu button:hover:before {
+    width: 70%;
+    opacity: 1;
+}
+
+#portfolio .port_menu button.active:before {
+    opacity: 1;
+    width: 70%;
+}
+
+#portfolio .port_menu button.active {
+    color: #F26426;
+}
+
+#portfolio .port_item {
+    position: relative;
+    margin: 15px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#portfolio .port_item img {
+    border-radius: 10px;
+}
+
+#portfolio .port_item:after {
+    height: 50%;
+    width: 50%;
+    right: 0;
+    top: -100%;
+    position: absolute;
+    background: rgba(242, 100, 38, .7);
+    content: '';
+    transition: all linear .4s;
+    opacity: 0;
+}
+
+#portfolio .port_item:before {
+    height: 50%;
+    width: 50%;
+    right: -100%;
+    bottom: 0;
+    position: absolute;
+    background: rgba(242, 100, 38, .7);
+    content: '';
+    transition: all linear .4s;
+    opacity: 0;
+}
+
+#portfolio .port_overlay:after {
+    height: 50%;
+    width: 50%;
+    left: -100%;
+    top: 0%;
+    position: absolute;
+    background: rgba(242, 100, 38, .7);
+    content: '';
+    transition: all linear .4s;
+    opacity: 0;
+}
+
+#portfolio .port_overlay:before {
+    height: 50%;
+    width: 50%;
+    left: 0%;
+    bottom: -100%;
+    position: absolute;
+    background: rgba(242, 100, 38, .7);
+    content: '';
+    transition: all linear .4s;
+    opacity: 0;
+}
+
+#portfolio .port_item:hover:after {
+    opacity: 1;
+    top: 0;
+}
+
+#portfolio .port_item:hover:before {
+    opacity: 1;
+    right: 0;
+}
+
+#portfolio .port_item:hover .port_overlay:after {
+    opacity: 1;
+    left: 0;
+}
+
+#portfolio .port_item:hover .port_overlay:before {
+    opacity: 1;
+    bottom: 0;
+}
+
+#portfolio .port_item:hover .port_overlay ul {
+    opacity: 1;
+}
+
+#portfolio .port_overlay ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    text-align: center;
+    opacity: 0;
+    transition: all linear .5s;
+}
+
+
+#portfolio .port_overlay ul li {
+    display: inline-block;
+}
+
+#portfolio .port_overlay ul li i {
+    color: #F26426;
+    line-height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0px 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#portfolio .port_overlay ul li i:hover {
+    background: #2F2F2F;
+    color: #fff;
+}
+
+
+/* ===============================
+   portfolio part ends here 
+================================== */
+
+
+/**
+
+ * Global
+ */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+address,
+figure,
+figcaption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}

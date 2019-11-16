@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>isotope filter</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <ul class="project_filter">
+                        <li class="active" data-filter="*">all</li>
+                        <li data-filter=".web">web design</li>
+                        <li data-filter=".graphics">graphics design</li>
+                        <li data-filter=".videos">videos</li>
+                        <li data-filter=".seo">seo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row project_list">
+                <div class="col-lg-4 seo">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 web">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 graphics">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 seo">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 videos">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 web">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 seo">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 graphics">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 web development">
+                    <div class="single-project-item project-bg-1">
+                        <div class="project-hover">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/OwlCarousel2Thumbs.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        // isotop filter js start
+        var $project_list = $('.project_list').isotope({
+            // options
+        });
+        // filter items on button click
+        $('.project_filter').on('click', 'li', function() {
+            $("li").removeClass("active");
+            $(this).addClass("active");
+            var filterValue = $(this).attr('data-filter');
+
+
+            $project_list.isotope({
+                filter: filterValue
+            });
+        });
+
+    </script>
+</body>
+
+</html>
